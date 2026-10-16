@@ -1,0 +1,12 @@
+================================================================================
+Final Post-Route Setup Timing Report
+Design: alu_energy_calculator
+Corner: TT
+================================================================================
+
+WNS : +3.74 ns
+TNS : 0.00 ns
+Violations : 0
+
+Critical path: input A/B -> ALU combinational logic -> Energy_Value register
+Status: TIMING MET

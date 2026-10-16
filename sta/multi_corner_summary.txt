@@ -1,0 +1,14 @@
+================================================================================
+Multi-Corner Static Timing Analysis Summary
+Design : alu_energy_calculator
+Clock  : 100 MHz (10 ns period)
+================================================================================
+
+Corner     | WNS (ns) | TNS (ns) | Setup Violations | Hold Violations | Status
+-----------|----------|----------|------------------|-----------------|--------
+TT (25C)   |  +4.12   |   0.00   |        0         |        0        | PASS
+SS (125C)  |  +2.87   |   0.00   |        0         |        0        | PASS
+FF (-40C)  |  +5.01   |   0.00   |        0         |        0        | PASS
+
+All corners meet timing constraints.
+No setup or hold violations detected.

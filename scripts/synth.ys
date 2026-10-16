@@ -1,0 +1,30 @@
+#==============================================================================
+# Yosys Synthesis Script
+# Target: Generic / Sky130 (can be adapted)
+#==============================================================================
+
+# Read design
+read_verilog src/alu_energy_calculator.v
+
+# Hierarchy check
+hierarchy -check -top alu_energy_calculator
+
+# High-level synthesis
+proc; opt; fsm; opt; memory; opt
+
+# Technology mapping (generic)
+techmap; opt
+
+# Clean up
+clean
+
+# Statistics
+stat
+
+# Write outputs
+write_verilog -noattr synth_out/alu_energy_synth.v
+write_json synth_out/alu_energy_synth.json
+write_blif synth_out/alu_energy_synth.blif
+
+# Show schematic (optional, requires graphviz)
+# show -format svg -prefix synth_out/alu_energy

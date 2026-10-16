@@ -1,0 +1,11 @@
+================================================================================
+Final Post-Route Hold Timing Report
+Design: alu_energy_calculator
+Corner: FF
+================================================================================
+
+WNS (Hold) : +0.18 ns
+TNS (Hold) : 0.00 ns
+Violations : 0
+
+Status: HOLD TIMING MET

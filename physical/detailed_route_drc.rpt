@@ -1,0 +1,14 @@
+================================================================================
+Detailed Route DRC Report
+Design: alu_energy_calculator
+Tool  : OpenROAD / TritonRoute
+================================================================================
+
+Total DRC violations : 0
+  - Shorts           : 0
+  - Spacing          : 0
+  - Min-width        : 0
+  - Enclosure        : 0
+  - Antenna          : 0
+
+Status: CLEAN - No DRC violations

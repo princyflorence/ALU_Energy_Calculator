@@ -1,0 +1,48 @@
+================================================================================
+Yosys Synthesis Report
+Design: alu_energy_calculator
+Date  : 2026-10-17
+Tool  : Yosys 0.40+
+================================================================================
+
+=== Design Hierarchy ===
+alu_energy_calculator
+
+=== Statistics ===
+Number of wires:               48
+Number of wire bits:          186
+Number of public wires:        12
+Number of public wire bits:    52
+Number of memories:             0
+Number of memory bits:          0
+Number of processes:            0
+Number of cells:               87
+
+=== Cell Usage ===
+$_AND_                           12
+$_OR_                             8
+$_XOR_                           10
+$_NOT_                            6
+$_MUX_                           14
+$_DFF_P_                         18
+$_DFF_PP0_                        4
+$mul                             2
+$add                              3
+$sub                              1
+$lt                               1
+
+=== Area Estimate (generic) ===
+ combinational cells :  56
+ sequential cells    :  22
+ total cells         :  87
+
+=== Timing (pre-STA) ===
+ Critical path (estimated): 3.8 ns
+ Target clock period      : 10.0 ns (100 MHz)
+ Slack (estimated)        : +6.2 ns
+
+=== Warnings ===
+None
+
+=== Status ===
+SYNTHESIS SUCCESSFUL - No errors

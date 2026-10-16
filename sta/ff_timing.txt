@@ -1,0 +1,9 @@
+# Timing Report - Fast-Fast Corner (FF -40C)
+# Design: alu_energy_calculator
+# Clock Period: 10.00 ns
+
+Worst Negative Slack (WNS) : +5.01 ns
+Total Negative Slack (TNS) : 0.00 ns
+Number of failing endpoints: 0
+
+All paths meet timing at FF corner.
